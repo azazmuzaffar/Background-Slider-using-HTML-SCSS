@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Basic CSS3 Sass Slider</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  </head>
+  <body>
+    <body>
+      <div class="slider">
+        <div class="slider__inner">
+          <!-- >>>>>>>>>>>>  Controls  <<<<<<<<<<<<< -->
+          <input
+            checked
+            type="radio"
+            name="slide"
+            class="control"
+            id="Slide1"
+          />
+          <label for="Slide1" id="s1" class="slideControl"></label>
+          <input type="radio" name="slide" class="control" id="Slide2" />
+          <label for="Slide2" id="s2" class="slideControl"></label>
+          <input type="radio" name="slide" class="control" id="Slide3" />
+          <label for="Slide3" id="s3" class="slideControl"></label>
+          <input type="radio" name="slide" class="control" id="Slide4" />
+          <label for="Slide4" id="s4" class="slideControl"></label>
+
+          <!-- >>>>>>>>>>>>  Content  <<<<<<<<<<<<< -->
+
+          <div class="slider__inner__overflow">
+            <span class="slider__slide testimonial">
+              <span class="testimonial__wrap">
+                <p class="testimonial__copy">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Iusto est non ratione exercitationem ducimus animi minima,
+                  possimus obcaecati. Tempore explicabo, voluptatem maiores
+                  temporibus numquam minus.
+                </p>
+                <span class="testimonial__author">Slide # 1</span>
+              </span>
+            </span>
+
+            <span class="slider__slide testimonial">
+              <span class="testimonial__wrap">
+                <p class="testimonial__copy">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Iusto est non ratione exercitationem ducimus animi minima,
+                  possimus obcaecati. Tempore explicabo, voluptatem maiores
+                  temporibus numquam minus.
+                </p>
+                <span class="testimonial__author">Slide # 2</span>
+              </span>
+            </span>
+
+            <span class="slider__slide testimonial">
+              <span class="testimonial__wrap">
+                <p class="testimonial__copy">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Iusto est non ratione exercitationem ducimus animi minima,
+                  possimus obcaecati. Tempore explicabo, voluptatem maiores
+                  temporibus numquam minus.
+                </p>
+                <span class="testimonial__author">Slide # 3</span>
+              </span>
+            </span>
+
+            <span class="slider__slide banner"
+              ><img src="https://unsplash.it/3000/700" class="banner__image"
+            /></span>
+          </div>
+        </div>
+      </div>
+    </body>
+  </body>
+</html>
